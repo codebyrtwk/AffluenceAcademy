@@ -1,0 +1,184 @@
+*{
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    font-family: 'Lato', sans-serif;
+    background-image: url('file:///C:/Users/ritwi/OneDrive/Desktop/WebD%20Bootcamp%202.0/Affluence%20Project/assets/background-image.png');
+    background-size:cover  ;                     
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center center center center;
+    
+ 
+
+}
+
+.navbar{
+    
+    min-width: 100%;
+    max-width: 100%;
+    position: sticky;
+    
+    
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.navbar,ul{
+    
+
+    text-decoration:none;
+    ;
+    
+    overflow:hidden;}
+
+li{
+    display:inline-block;
+    font: weight 200px;
+    margin: 10px 30px;
+    
+    font-weight: 200;
+    fonr-size:1.2rem;
+    
+    text-decoration: none;
+}
+
+li:hover{
+    text-shadow: 2px 2px rgb(233, 188, 133);
+    color:rgb(233, 188, 133) ;
+    font-weight: medium;
+    
+    
+}
+.nav-link{
+    text-decoration: none;
+    color: #897A7E;
+}
+
+.main{
+    position: fixed;
+    position: absolute;
+    left: 0vw;
+    margin: 0 14vw;
+    width: 70vw;
+    height: 85vh;
+    min-width: 70%;
+    max-width: 100%;
+    
+    max-height: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(233, 188, 133);
+    
+}
+.join{
+    display: flex;
+    justify-content: baseline;
+    align-items: center;  
+    background-color: #897A7E;
+    position: absolute;
+    font-size: 15px;
+    padding: 10px 15px 10px 15px;
+    color: white;
+    border-radius:50px;
+    bottom:10px;
+    font-weight: bold;
+
+}
+.join:hover{
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.slogans{
+    color: black;
+    display: flex;
+    align-items: center;
+    font-size: 2em;
+    position: absolute;
+    top:6em;
+    font-weight: 850px;
+    background-color: rgba(red, green, blue, 5);
+    padding-bottom: 0px;
+    
+    
+}
+.slogans:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0px;
+    content: "";
+    display: block;
+    height: 0px;
+    left: 50%;
+    position: absolute;
+    background:black;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+    padding-bottom: 1px;
+    margin: 0%;
+  }
+  .slogans:hover:after { 
+    width: 100%; 
+    left: 0; 
+    cursor: pointer;
+  }
+  @media screen and (max-height: 300px) {
+      .slogans {
+          margin-top: 10px;
+      }
+  }
+  
+
+.topics{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-column-gap: 100px;
+    grid-row-gap: 20px;
+    position: absolute;
+    top: 45%;
+    min-height: 10px;
+    margin-top: 30px;
+
+    
+    
+}
+
+
+.topic{
+    
+    font-size: smaller;
+    font-weight:700px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    background-color: #fff;
+    background-color: rgba(255,255,255,0.7);
+    padding: 5px;
+    border: 0.1px solid black;
+}
+
+.topic:hover{
+    background-color:silver;
+    color: black;
+    background: rgba(255, 255, 255, 0.2);
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.2)50%, rgba(255, 255, 255, 0.7)100%); /* Safari 5.1-6.0 */
+    background: -o-linear-gradient(0deg, rgba(255, 255, 255, 0.2)50%, rgba(255, 255, 255, 0.7)100%); /* Opera 11.1-12.0 */ 
+    background: -moz-linear-gradient(0deg, rgba(255, 255, 255, 0.2)50%, rgba(255, 255, 255, 0.7)100%); /* Firefox 3.6-15 */
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.2)50%, rgba(255, 255, 255, 0.7)100%); /* Standard syntax */
+    cursor: pointer;
+}
+
+.container{
+    width: 100px;
+    background-color: #897A7E;
+}
